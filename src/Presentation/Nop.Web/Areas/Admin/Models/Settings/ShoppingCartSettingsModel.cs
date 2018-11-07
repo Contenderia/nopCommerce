@@ -84,7 +84,7 @@ namespace Nop.Web.Areas.Admin.Models.Settings
         public bool AllowCartItemEditing { get; set; }
         public bool AllowCartItemEditing_OverrideForStore { get; set; }
         
-        [NopResourceDisplayName("Admin.Configuration.Settings.ShoppingCart.AllowCartItemEditing")]
+        [NopResourceDisplayName("Admin.Configuration.Settings.ShoppingCart.GroupTierPricesForDistinctShoppingCartItems")]
         public bool GroupTierPricesForDistinctShoppingCartItems { get; set; }
         public bool GroupTierPricesForDistinctShoppingCartItems_OverrideForStore { get; set; }
 
